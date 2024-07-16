@@ -2,7 +2,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/ssf",
   siteMetadata: {
     title: `SoftStack Factory`,
   },
