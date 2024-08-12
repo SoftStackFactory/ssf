@@ -12,17 +12,68 @@ body {
     max-width: 1020px;
   }
   
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #333;
-    margin-top: 20px;
-  }
-  
-  p {
-    color: #555;
-  }
-  
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+}
+
+p {
+  color: #555;
+}
+
+.site-footer {
+  background-color: #746a39;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  display: block;
+}
+
+.site-footer p {
+  color: #fff;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.social-media-links {
+  margin-bottom: 15px;
+}
+
+.social-media-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-media-links a:hover {
+  text-decoration: underline;
+}
+
+.terms-of-use-page {
+  color: #a65738;
+  text-align: center;
+}
