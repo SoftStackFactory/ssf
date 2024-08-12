@@ -1,6 +1,6 @@
 // src/pages/terms-of-use.js
 import React from "react";
-import Footer from "./footer";
+import Footer from "../components/footer";
 
 const TermsOfUse = () => (
     <div className="terms-of-use-page">

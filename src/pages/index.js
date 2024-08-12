@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { StaticImage } from 'gatsby-plugin-image'
 import './index.css' // Optional: For any custom styles
-import Footer from "./footer";
+import Footer from "../components/footer";
 
 const IndexPage = () => {
   return (

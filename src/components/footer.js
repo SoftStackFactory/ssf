@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
-import './index.css' // Optional: For any custom styles
+import '../pages/index.css' // Optional: For any custom styles
 
 
 const Footer = () => {
