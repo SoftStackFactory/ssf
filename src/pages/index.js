@@ -3,10 +3,12 @@ import { Helmet } from 'react-helmet'
 import { StaticImage } from 'gatsby-plugin-image'
 import './index.css' // Optional: For any custom styles
 import Footer from "../components/footer";
+import Header from "../components/header";
 
 const IndexPage = () => {
   return (
     <main>
+      <Header></Header>
       <Helmet>
         <link rel="icon" href="/favicon.ico" />
         <title>Softstack Factory</title>
