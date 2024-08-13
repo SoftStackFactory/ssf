@@ -24,7 +24,7 @@ const IndexPage = () => {
         />
         <p>Our site is currently under construction. Check back soon for updates!</p>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </main>
     
   )
