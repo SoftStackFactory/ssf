@@ -2,8 +2,9 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { StaticImage } from 'gatsby-plugin-image'
 import './index.css' // Optional: For any custom styles
-import Footer from "../components/footer";
 import Header from "../components/header";
+import Footer from "../components/footer";
+import Divider from '@mui/material/Divider';
 
 const IndexPage = () => {
   return (
@@ -24,7 +25,8 @@ const IndexPage = () => {
         />
         <p>Our site is currently under construction. Check back soon for updates!</p>
       </div>
-      {/* <Footer></Footer> */}
+      <Divider />
+      <Footer></Footer>
     </main>
     
   )
