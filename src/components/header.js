@@ -12,7 +12,7 @@ import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 
 const logoStyle = {
-  width: '140px',
+  width: '100px',
   height: 'auto',
   cursor: 'pointer',
 };
@@ -82,7 +82,7 @@ function AppAppBar({ mode, toggleColorMode }) {
               }}
             >
               <img
-                src='../logo.png'
+                src='../logo-white.png'
                 style={logoStyle}
                 alt="logo of softstackfactory"
               />
