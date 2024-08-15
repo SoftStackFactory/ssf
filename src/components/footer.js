@@ -54,7 +54,7 @@ export default function Footer() {
           }}
         >
           <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
-            <Box sx={{ ml: '-15px' }}>
+            <Box sx={{ ml: '20px' }}>
               <img
                 src={
                   './logo-white.png'
@@ -63,30 +63,6 @@ export default function Footer() {
                 alt="logo of sitemark"
               />
             </Box>
-            {/* <Typography variant="body2" fontWeight={600} gutterBottom>
-              Newsletter
-            </Typography>
-            <Typography variant="body2" color="text.secondary" mb={2}>
-              Subscribe to our newsletter for weekly updates and promotions.
-            </Typography>
-            <Stack direction="row" spacing={1} useFlexGap>
-              <TextField
-                id="outlined-basic"
-                hiddenLabel
-                size="small"
-                variant="outlined"
-                fullWidth
-                aria-label="Enter your email address"
-                placeholder="Your email address"
-                inputProps={{
-                  autoComplete: 'off',
-                  'aria-label': 'Enter your email address',
-                }}
-              />
-              <Button variant="contained" color="primary" sx={{ flexShrink: 0 }}>
-                Subscribe
-              </Button>
-            </Stack> */}
           </Box>
         </Box>
         <Box
@@ -155,6 +131,7 @@ export default function Footer() {
           width: '100%',
           borderTop: '1px solid',
           borderColor: 'divider',
+          ml: '40px',
         }}
       >
         <div>

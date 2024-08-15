@@ -77,7 +77,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 flexGrow: 1,
                 display: 'flex',
                 alignItems: 'center',
-                ml: '-18px',
+                ml: '0px',
                 px: 0,
               }}
             >
