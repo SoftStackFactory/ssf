@@ -82,7 +82,7 @@ function AppAppBar({ mode, toggleColorMode }) {
               }}
             >
               <img
-                src='../logo-white.png'
+                src='./logo-white.png'
                 style={logoStyle}
                 alt="logo of softstackfactory"
               />
