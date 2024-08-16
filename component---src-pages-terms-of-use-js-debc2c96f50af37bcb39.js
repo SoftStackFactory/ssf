@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkssf=self.webpackChunkssf||[]).push([[224],{7246:function(e,l,n){n.r(l);var t=n(7294),s=n(626),u=n(9411);l.default=()=>t.createElement("main",null,t.createElement(s.Z,null),t.createElement(u.Z,null))}}]);
+//# sourceMappingURL=component---src-pages-terms-of-use-js-debc2c96f50af37bcb39.js.map
