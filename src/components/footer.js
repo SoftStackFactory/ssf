@@ -57,7 +57,7 @@ export default function Footer() {
             <Box sx={{ ml: '20px' }}>
               <img
                 src={
-                  './logo-white.png'
+                  '../logo-white.png'
                 }
                 style={logoStyle}
                 alt="logo of sitemark"
@@ -112,7 +112,7 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             EULA
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link color="text.secondary" href="/terms-of-use">
             Terms
           </Link>
           <Link color="text.secondary" href="#">
@@ -141,7 +141,7 @@ export default function Footer() {
           <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography>
-          <Link color="text.secondary" href="#">
+          <Link color="text.secondary" href="/terms-of-use">
             Terms of Service
           </Link>
           <Copyright />
