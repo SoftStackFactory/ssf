@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import logo from '../images/logo.png'; 
 
 export default function Construction() {
   return (
@@ -32,7 +31,7 @@ export default function Construction() {
         <Stack spacing={2} useFlexGap sx={{ width: { xs: '100%', sm: '70%' } }}>
           <Box
             component="img"
-            src={logo}
+            src="./logo.png"
             alt="Logo"
             sx={{
               width: { xs: '80%', sm: '60%', md: '50%' },
