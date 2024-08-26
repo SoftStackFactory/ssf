@@ -1,32 +1,26 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { StaticImage } from 'gatsby-plugin-image'
 import './index.css' // Optional: For any custom styles
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Divider from '@mui/material/Divider';
+import Hero from '../components/hero';
+import Box from '@mui/material/Box';
 
 const IndexPage = () => {
   return (
     <main>
-      <Header></Header>
       <Helmet>
         <link rel="icon" href="/favicon.ico" />
         <title>Softstack Factory</title>
         <meta name="description" content="Softstack Factory - Site Under Construction" />
       </Helmet>
-      <div className="container">
-        <StaticImage
-          src="../images/logo.png" // Update this path to your logo's location
-          alt="Softstack Factory Logo"
-          placeholder="none"
-          layout="fixed"
-          width={420} // Adjust the width as necessary
-        />
-        <p>Our site is currently under construction. Check back soon for updates!</p>
-      </div>
-      <Divider />
-      <Footer></Footer>
+      <Box sx={{ bgcolor: 'background.default' }}>
+        <Header />
+        <Hero />
+        <Divider />
+        <Footer />
+      </Box>
     </main>
     
   )
