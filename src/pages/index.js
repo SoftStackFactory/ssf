@@ -4,7 +4,7 @@ import './index.css' // Optional: For any custom styles
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Divider from '@mui/material/Divider';
-import Hero from '../components/hero';
+import Construction from '../components/construction';
 import Box from '@mui/material/Box';
 
 const IndexPage = () => {
@@ -17,7 +17,7 @@ const IndexPage = () => {
       </Helmet>
       <Box sx={{ bgcolor: 'background.default' }}>
         <Header />
-        <Hero />
+        <Construction />
         <Divider />
         <Footer />
       </Box>
