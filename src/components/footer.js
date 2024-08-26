@@ -81,7 +81,7 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             Features
           </Link>
-          <Link color="text.secondary" href="#">
+          <Link color="text.secondary" href="#testimonials">
             Testimonials
           </Link>
           <Link color="text.secondary" href="#">
