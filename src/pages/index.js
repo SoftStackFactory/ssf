@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import './index.css' // Optional: For any custom styles
 import Header from "../components/header";
+import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import Divider from '@mui/material/Divider';
 import Construction from '../components/construction';
@@ -15,9 +16,11 @@ const IndexPage = () => {
         <title>Softstack Factory</title>
         <meta name="description" content="Softstack Factory - Site Under Construction" />
       </Helmet>
+      <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
-        <Header />
         <Construction />
+        <Divider />
+        <Testimonials />
         <Divider />
         <Footer />
       </Box>
