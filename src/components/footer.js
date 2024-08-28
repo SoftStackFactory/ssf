@@ -57,7 +57,7 @@ export default function Footer() {
             <Box sx={{ ml: '20px' }}>
               <img
                 src={
-                  '../images/logo-white.png'
+                  '../logo-white.png'
                 }
                 style={logoStyle}
                 alt="logo of sitemark"
