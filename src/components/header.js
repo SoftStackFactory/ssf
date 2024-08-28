@@ -17,7 +17,7 @@ const logoStyle = {
   cursor: 'pointer',
 };
 
-function AppAppBar({ mode, toggleColorMode }) {
+function Header() {
   const [open, setOpen] = React.useState(false);
 
   const toggleDrawer = (newOpen) => () => {
@@ -170,4 +170,4 @@ function AppAppBar({ mode, toggleColorMode }) {
   );
 }
 
-export default AppAppBar;
+export default Header;
