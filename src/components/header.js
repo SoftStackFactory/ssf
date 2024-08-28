@@ -82,7 +82,7 @@ function Header() {
               }}
             >
               <img
-                src='./logo-white.png'
+                src='../images/logo-white.png'
                 style={logoStyle}
                 alt="logo of softstackfactory"
               />
