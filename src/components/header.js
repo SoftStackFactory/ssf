@@ -87,6 +87,14 @@ function Header() {
                 alt="logo of softstackfactory"
               />
               <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+              <MenuItem
+                  onClick={() => scrollToSection('about')}
+                  sx={{ py: '6px', px: '12px' }}
+                >
+                  <Typography variant="body2" color="text.primary">
+                    About
+                  </Typography>
+                </MenuItem>
                 <MenuItem
                   onClick={() => scrollToSection('features')}
                   sx={{ py: '6px', px: '12px' }}
@@ -149,6 +157,9 @@ function Header() {
                     }}
                   >
                   </Box>
+                  <MenuItem onClick={() => scrollToSection('about')}>
+                    About
+                  </MenuItem>
                   <MenuItem onClick={() => scrollToSection('features')}>
                     Features
                   </MenuItem>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import './index.css' // Optional: For any custom styles
 import Header from "../components/header";
+import About from "../components/about";
 import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import Divider from '@mui/material/Divider';
@@ -19,6 +20,8 @@ const IndexPage = () => {
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
         <Construction />
+        <Divider />
+        <About />
         <Divider />
         <Testimonials />
         <Divider />
