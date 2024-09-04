@@ -6,7 +6,7 @@ import Divider from '@mui/material/Divider';
 
 const TermsPage = () => {
   return (
-    <main style={{ paddingTop: '415vh' }}>
+    <main style={{ paddingTop: '350vh' }}>
       <Header />
       <section style={{ textAlign: 'center', paddingBottom: '20px'}}>
         <h1>TERMS OF USE</h1>
