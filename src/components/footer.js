@@ -60,7 +60,7 @@ export default function Footer() {
                   './logo-white.png'
                 }
                 style={logoStyle}
-                alt="logo of sitemark"
+                alt="logo of SoftStack Factory"
               />
             </Box>
           </Box>
@@ -78,18 +78,18 @@ export default function Footer() {
           <Link color="text.secondary" href="#about">
             About
           </Link>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Features
-          </Link>
+          </Link> */}
           <Link color="text.secondary" href="#testimonials">
             Testimonials
           </Link>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Highlights
           </Link>
           <Link color="text.secondary" href="#">
             FAQs
-          </Link>
+          </Link> */}
         </Box>
         <Box
           sx={{
@@ -112,15 +112,15 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             EULA
           </Link>
-          <Link color="text.secondary" href="/terms-of-use">
+          <Link color="text.secondary" href="/ssf/terms-of-use/">
             Terms
           </Link>
           <Link color="text.secondary" href="#">
             Privacy
           </Link>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Contact
-          </Link>
+          </Link> */}
         </Box>
       </Box>
       <Box
@@ -141,7 +141,7 @@ export default function Footer() {
           <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
             &nbsp;•&nbsp;
           </Typography>
-          <Link color="text.secondary" href="/terms-of-use">
+          <Link color="text.secondary" href="ssf/terms-of-use/">
             Terms of Service
           </Link>
           <Copyright />
