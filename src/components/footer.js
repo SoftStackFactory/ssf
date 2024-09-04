@@ -78,18 +78,18 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             About
           </Link>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Features
-          </Link>
+          </Link> */}
           <Link color="text.secondary" href="#testimonials">
             Testimonials
           </Link>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Highlights
           </Link>
           <Link color="text.secondary" href="#">
             FAQs
-          </Link>
+          </Link> */}
         </Box>
         <Box
           sx={{
@@ -118,9 +118,9 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             Privacy
           </Link>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Contact
-          </Link>
+          </Link> */}
         </Box>
       </Box>
       <Box
