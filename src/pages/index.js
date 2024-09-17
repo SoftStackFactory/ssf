@@ -5,6 +5,7 @@ import Header from "../components/header";
 import About from "../components/about";
 import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
+import Modal from '../components/modal';
 import Divider from '@mui/material/Divider';
 import Construction from '../components/construction';
 import Box from '@mui/material/Box';
@@ -17,6 +18,7 @@ const IndexPage = () => {
         <title>Softstack Factory</title>
         <meta name="description" content="Softstack Factory - Site Under Construction" />
       </Helmet>
+      <Modal />
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
         <Construction />
