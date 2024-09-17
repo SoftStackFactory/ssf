@@ -99,7 +99,7 @@ export default function Footer() {
           }}
         >
         </Box>
-        <Box
+        {/* <Box
           sx={{
             display: { xs: 'none', sm: 'flex' },
             flexDirection: 'column',
@@ -118,10 +118,10 @@ export default function Footer() {
           <Link color="text.secondary" href="#">
             Privacy
           </Link>
-          {/* <Link color="text.secondary" href="#">
+          <Link color="text.secondary" href="#">
             Contact
-          </Link> */}
-        </Box>
+          </Link>
+        </Box> */}
       </Box>
       <Box
         sx={{
@@ -135,7 +135,7 @@ export default function Footer() {
         }}
       >
         <div>
-          <Link color="text.secondary" href="#">
+          {/* <Link color="text.secondary" href="#">
             Privacy Policy
           </Link>
           <Typography display="inline" sx={{ mx: 0.5, opacity: 0.5 }}>
@@ -143,7 +143,7 @@ export default function Footer() {
           </Typography>
           <Link color="text.secondary" href="ssf/terms-of-use/">
             Terms of Service
-          </Link>
+          </Link> */}
           <Copyright />
         </div>
         <Stack
