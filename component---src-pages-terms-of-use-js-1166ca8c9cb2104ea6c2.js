@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkssf=self.webpackChunkssf||[]).push([[224],{7246:function(e,s,l){l.r(s);var t=l(7294),a=l(9411);s.default=()=>t.createElement("div",{className:"terms-of-use-page"},t.createElement("h2",null,"TERMS OF USE"),t.createElement(a.Z,null))}}]);
-//# sourceMappingURL=component---src-pages-terms-of-use-js-1166ca8c9cb2104ea6c2.js.map
