@@ -14,15 +14,13 @@ const IndexPage = () => {
   return (
     <main>
       <Helmet>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./images/favicon.ico" />
         <title>Softstack Factory</title>
         <meta name="description" content="Softstack Factory - Site Under Construction" />
       </Helmet>
       <Modal />
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
-        <Construction />
-        <Divider />
         <About />
         <Divider />
         <Testimonials />
