@@ -9,6 +9,7 @@ import Modal from '../components/modal';
 import Divider from '@mui/material/Divider';
 import Construction from '../components/construction';
 import Box from '@mui/material/Box';
+import Community from '../components/community';
 
 const IndexPage = () => {
   return (
@@ -22,6 +23,8 @@ const IndexPage = () => {
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
         <About />
+        <Divider />
+        <Community />
         <Divider />
         <Testimonials />
         <Divider />
