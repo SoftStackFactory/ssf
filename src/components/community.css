@@ -1,0 +1,32 @@
+.community {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .organization-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .organization-card {
+    background: linear-gradient(to bottom, black, #e97c31);
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .organization-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .white-text {
+    color: white;
+  }
+  
