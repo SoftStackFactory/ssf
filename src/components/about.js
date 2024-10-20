@@ -140,7 +140,6 @@ function About() {
         sx={{
           width: { sm: '100%', md: '80%' },
           textAlign: { sm: 'left', md: 'center' },
-          paddingTop: '600vh',
         }}
       >
         <Typography component="h2" variant="h4" color="text.primary">

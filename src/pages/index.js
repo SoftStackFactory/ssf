@@ -7,9 +7,9 @@ import Testimonials from "../components/testimonials";
 import Footer from "../components/footer";
 import Modal from '../components/modal';
 import Divider from '@mui/material/Divider';
-import Construction from '../components/construction';
 import Box from '@mui/material/Box';
 import Community from '../components/community';
+import Landing from '../components/landing';
 
 const IndexPage = () => {
   return (
@@ -22,6 +22,8 @@ const IndexPage = () => {
       <Modal />
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
+        <Landing />
+        <Divider />
         <About />
         <Divider />
         <Community />
