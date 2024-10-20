@@ -26,7 +26,7 @@ const organizations = [
 
   function Community() {
     return (
-        <div className="community">
+        <div className="community" id="community">
           <Typography variant="h4" gutterBottom>
             Community Outreach
           </Typography>
