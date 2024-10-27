@@ -152,7 +152,7 @@ function About() {
           local San Diego community.
         </Typography>
         <Typography component="h4" variant="h5" color="text.primary">
-          Board Members
+          Founding Members
         </Typography>
       </Box>
 
