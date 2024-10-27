@@ -30,8 +30,8 @@ const courses = [
   {
     title: 'Data Science & Machine Learning',
     description: `
-      Working with data: Cover techniques that real-life data scientists use to gain insight into datasets. 
-      Building and Evaluating Models: Learn to build Machine Learning models, including data prep, parameter selection, and performance testing with SciKit Learn.`,
+      Explore key data science techniques and learn to build and evaluate machine learning models, focusing on data 
+      prep, tuning, and testing with SciKit Learn.`,
     image: './images/scikit-learn.svg',
   },
 ];
