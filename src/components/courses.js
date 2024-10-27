@@ -38,7 +38,7 @@ const courses = [
 
 const Courses = () => {
     return (
-      <Container sx={{ py: 5 }}>
+      <Container id="about" sx={{ py: 5 }}>
         <Typography variant="h4" align="center" gutterBottom>
           Courses We Offered
         </Typography>
