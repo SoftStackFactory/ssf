@@ -125,7 +125,6 @@ const volunteers = [
 function About() {
   return (
     <Container
-      id="about"
       sx={{
         pt: { xs: 4, sm: 12 },
         pb: { xs: 8, sm: 16 },

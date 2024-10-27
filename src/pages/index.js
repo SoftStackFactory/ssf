@@ -10,6 +10,7 @@ import Divider from '@mui/material/Divider';
 import Box from '@mui/material/Box';
 import Community from '../components/community';
 import Landing from '../components/landing';
+import Courses from '../components/courses';
 
 const IndexPage = () => {
   return (
@@ -23,6 +24,8 @@ const IndexPage = () => {
       <Header />
       <Box sx={{ bgcolor: 'background.default' }}>
         <Landing />
+        <Divider />
+        <Courses />
         <Divider />
         <About />
         <Divider />
