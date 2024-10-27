@@ -10,13 +10,13 @@ body {
     background-color: #ffffff;
     width: auto;
     max-width: 1020px;
-    padding-top: 50vh;
+    /* padding-top: 50vh; */
   }
   
 .container {
   text-align: center;
   padding: 20px;
-  padding-top: 350vh;
+  /* padding-top: 350vh; */
 }
 
 h1 {
@@ -92,4 +92,18 @@ p {
 
 .logo-wrapper {
   width: 185px;
+}
+
+/* Adjust padding for tablets */
+@media (max-width: 768px) {
+  body {
+      padding-top: 40vh; /* Adjusted for tablets */
+  }
+}
+
+/* Adjust padding for mobile devices */
+@media (max-width: 480px) {
+  body {
+      padding-top: 200vh; /* Adjusted for mobile phones */
+  }
 }
