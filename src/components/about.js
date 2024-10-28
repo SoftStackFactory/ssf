@@ -251,17 +251,17 @@ function About() {
         <Typography component="h2" variant="h4" color="text.primary">
           SSF Labs
         </Typography>
-        <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
-        SoftStack Factory (SSF) expanded to establish SSF Labs, an initiative led by CEO Harold Gottschalk and CTO Scott Holcombe. SSF 
-        Labs was designed to support local tech companies by integrating recent graduates into project teams, where they could contribute 
-        to real-world projects under the guidance of experienced industry leaders. This provided graduates with valuable hands-on experience 
-        and full-time employment while offering companies the unique advantage of local, highly-skilled teams led by former CTOs of public 
-        companies—ensuring both quality and affordability.
-
-        Throughout the initiative, SSF Labs partnered with multiple companies on a range of projects, and companies were given the option 
-        to retain team members for full-time roles—a transition that occurred on numerous occasions, reinforcing the program’s success and 
-        impact. This model proved mutually beneficial, cultivating workforce readiness while enabling businesses to access skilled talent 
-        seamlessly.
+        <Typography variant="body1" color="text.secondary" paragraph sx={{ mb: 4 }}>
+          SoftStack Factory (SSF) expanded its initiatives by establishing SSF Labs, an innovative program led by our CEO, Harold Gottschalk, 
+          and CTO, Scott Holcombe, designed to support local tech companies by seamlessly integrating recent graduates into real-world project 
+          teams. This setup enabled graduates to gain valuable, hands-on experience in their field and secure full-time employment opportunities, 
+          while offering companies the unique advantage of local, highly-skilled teams guided by former CTOs of public companies providing both 
+          exceptional quality and cost-effective solutions.
+          <br /><br />
+          Through SSF Labs, we formed partnerships with multiple companies across diverse projects, with the added flexibility for companies 
+          to retain team members in full-time positions—a transition that occurred frequently, further validating the program's success and 
+          positive impact. This model proved to be a mutually beneficial solution, helping foster workforce readiness while enabling businesses 
+          to access skilled, reliable talent with ease and efficiency.
         </Typography>
       </Box>
 
