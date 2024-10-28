@@ -54,45 +54,45 @@ const teamMembers = [
 ];
 
 const volunteers = [
-  {
-    name: 'Scott Holcombe',
-    title: 'CTO, SSF Labs',
-    description: "Scott's career has been centered on bringing great products to market for longer than he'd care to admit. From a start as an impressionable software engineer wringing performance out of high-volume transaction processing systems for the credit card industry, to designing and building an award winning mobile phone, Scott ultimately started his own company providing cloud-based record label royalty software which was subsequently acquired by Sony Music.",
-    image: './images/scott-holcombe.jpeg',
-  },
+  // {
+  //   name: 'Scott Holcombe',
+  //   title: 'CTO, SSF Labs',
+  //   description: "Scott's career has been centered on bringing great products to market for longer than he'd care to admit. From a start as an impressionable software engineer wringing performance out of high-volume transaction processing systems for the credit card industry, to designing and building an award winning mobile phone, Scott ultimately started his own company providing cloud-based record label royalty software which was subsequently acquired by Sony Music.",
+  //   image: './images/scott-holcombe.jpeg',
+  // },
   {
     name: 'Peter Horton',
     title: 'Program Director',
     description: 'Peter moved to San Diego as wine tour guide from Santa Barbara in 2015. Peter completed the SoftStack Factory full time immersion program. Peter went from knowing nothing about coding, with hard work, sacrifice, learned to code. Peter now advances the curricula, leads projects and facilitators at SoftStack Factory. Peter is an example of what can be accomplished when you pour yourself into the coding process 100%.',
     image: './images/peter-horton.jpeg',
   },
-  {
-    name: 'Michael Martin',
-    title: 'SSF Labs',
-    description: "Bio coming soon! Stay tuned to learn more.",
-    image: './images/mike-martin.png',
-  },
+  // {
+  //   name: 'Michael Martin',
+  //   title: 'SSF Labs',
+  //   description: "Bio coming soon! Stay tuned to learn more.",
+  //   image: './images/mike-martin.png',
+  // },
   {
     name: 'Robert Brown',
-    title: 'SSF Labs, Former Facilitator',
+    title: 'Former Facilitator, SSF Labs',
     description: 'Bio coming soon! Stay tuned to learn more.',
     image: './images/rob-brown.png',
   },
-  {
-    name: 'Rhiannon Duvall',
-    title: 'SSF Labs',
-    description: "Bio coming soon! Stay tuned to learn more.",
-    image: './images/rhiannon-duvall.png',
-  },
+  // {
+  //   name: 'Rhiannon Duvall',
+  //   title: 'SSF Labs',
+  //   description: "Bio coming soon! Stay tuned to learn more.",
+  //   image: './images/rhiannon-duvall.png',
+  // },
   {
     name: 'Gino Llave',
-    title: 'SSF Labs, Former Facilitator',
+    title: 'Former Facilitator, SSF Labs',
     description: "Bio coming soon! Stay tuned to learn more.",
     image: './images/gino-llave.png',
   },
   {
     name: 'Matthew Hess',
-    title: 'SSF Labs, Former Facilitator',
+    title: 'Former Facilitator, SSF Labs',
     description: 'Bio coming soon! Stay tuned to learn more.',
     image: './images/matt-hess.png',
   },
@@ -119,6 +119,27 @@ const volunteers = [
     title: 'Former Facilitator',
     description: 'Bio coming soon! Stay tuned to learn more.',
     image: './images/no-image.png',
+  },
+];
+
+const labs = [
+  {
+    name: 'Scott Holcombe',
+    title: 'CTO, SSF Labs',
+    description: "Scott's career has been centered on bringing great products to market for longer than he'd care to admit. From a start as an impressionable software engineer wringing performance out of high-volume transaction processing systems for the credit card industry, to designing and building an award winning mobile phone, Scott ultimately started his own company providing cloud-based record label royalty software which was subsequently acquired by Sony Music.",
+    image: './images/scott-holcombe.jpeg',
+  },
+  {
+    name: 'Michael Martin',
+    title: 'SSF Labs',
+    description: "Bio coming soon! Stay tuned to learn more.",
+    image: './images/mike-martin.png',
+  },
+  {
+    name: 'Rhiannon Duvall',
+    title: 'SSF Labs',
+    description: "Bio coming soon! Stay tuned to learn more.",
+    image: './images/rhiannon-duvall.png',
   },
 ];
 
@@ -195,6 +216,57 @@ function About() {
 
       <Grid container spacing={4}>
         {volunteers.map((member, index) => (
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <CardMedia>
+                <Avatar
+                  alt={member.name}
+                  src={member.image}
+                  sx={{ width: 120, height: 120, mt: 2 }}
+                />
+              </CardMedia>
+              <CardContent sx={{ flexGrow: 1, textAlign: 'center' }}>
+                <Typography component="h3" variant="h6" color="text.primary">
+                  {member.name}
+                </Typography>
+                <Typography variant="subtitle1" color="text.secondary">
+                  {member.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
+                  {member.description}
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+
+      {/* ================= NEW NEW =================== */}
+      <Box
+        sx={{
+          width: { sm: '100%', md: '80%' },
+          textAlign: { sm: 'left', md: 'center' },
+        }}
+      >
+        <Typography component="h2" variant="h4" color="text.primary">
+          SSF Labs
+        </Typography>
+        <Typography variant="body1" color="text.secondary" paragraph sx={{ mb: 4 }}>
+          SoftStack Factory (SSF) expanded its initiatives by establishing SSF Labs, an innovative program led by our CEO, Harold Gottschalk, 
+          and CTO, Scott Holcombe, designed to support local tech companies by seamlessly integrating recent graduates into real-world project 
+          teams. This setup enabled graduates to gain valuable, hands-on experience in their field and secure full-time employment opportunities, 
+          while offering companies the unique advantage of local, highly-skilled teams guided by former CTOs of public companies providing both 
+          exceptional quality and cost-effective solutions.
+          <br /><br />
+          Through SSF Labs, we formed partnerships with multiple companies across diverse projects, with the added flexibility for companies 
+          to retain team members in full-time positions—a transition that occurred frequently, further validating the program's success and 
+          positive impact. This model proved to be a mutually beneficial solution, helping foster workforce readiness while enabling businesses 
+          to access skilled, reliable talent with ease and efficiency.
+        </Typography>
+      </Box>
+
+      <Grid container spacing={4}>
+        {labs.map((member, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <CardMedia>
