@@ -82,7 +82,7 @@ function Header() {
               }}
             >
               <img
-                src='./images/logo-white.png'
+                src='./images/logo-clear.png'
                 style={logoStyle}
                 alt="logo of softstackfactory"
               />
@@ -160,16 +160,16 @@ function Header() {
                   <MenuItem onClick={() => scrollToSection('about')}>
                     About
                   </MenuItem>
-                  <MenuItem onClick={() => scrollToSection('features')}>
-                    Features
+                  <MenuItem onClick={() => scrollToSection('community')}>
+                    Community
                   </MenuItem>
                   <MenuItem onClick={() => scrollToSection('testimonials')}>
                     Testimonials
                   </MenuItem>
-                  <MenuItem onClick={() => scrollToSection('highlights')}>
+                  {/* <MenuItem onClick={() => scrollToSection('highlights')}>
                     Highlights
                   </MenuItem>
-                  <MenuItem onClick={() => scrollToSection('faq')}>FAQ</MenuItem>
+                  <MenuItem onClick={() => scrollToSection('faq')}>FAQ</MenuItem> */}
                   <Divider />
                 </Box>
               </Drawer>
