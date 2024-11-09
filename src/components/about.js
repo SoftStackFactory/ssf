@@ -54,47 +54,11 @@ const teamMembers = [
 ];
 
 const volunteers = [
-  // {
-  //   name: 'Scott Holcombe',
-  //   title: 'CTO, SSF Labs',
-  //   description: "Scott's career has been centered on bringing great products to market for longer than he'd care to admit. From a start as an impressionable software engineer wringing performance out of high-volume transaction processing systems for the credit card industry, to designing and building an award winning mobile phone, Scott ultimately started his own company providing cloud-based record label royalty software which was subsequently acquired by Sony Music.",
-  //   image: './images/scott-holcombe.jpeg',
-  // },
   {
     name: 'Peter Horton',
     title: 'Program Director',
     description: 'Peter moved to San Diego as wine tour guide from Santa Barbara in 2015. Peter completed the SoftStack Factory full time immersion program. Peter went from knowing nothing about coding, with hard work, sacrifice, learned to code. Peter now advances the curricula, leads projects and facilitators at SoftStack Factory. Peter is an example of what can be accomplished when you pour yourself into the coding process 100%.',
     image: './images/peter-horton.jpeg',
-  },
-  // {
-  //   name: 'Michael Martin',
-  //   title: 'SSF Labs',
-  //   description: "Bio coming soon! Stay tuned to learn more.",
-  //   image: './images/mike-martin.png',
-  // },
-  {
-    name: 'Robert Brown',
-    title: 'Former Facilitator, SSF Labs',
-    description: 'Bio coming soon! Stay tuned to learn more.',
-    image: './images/rob-brown.png',
-  },
-  // {
-  //   name: 'Rhiannon Duvall',
-  //   title: 'SSF Labs',
-  //   description: "Bio coming soon! Stay tuned to learn more.",
-  //   image: './images/rhiannon-duvall.png',
-  // },
-  {
-    name: 'Gino Llave',
-    title: 'Former Facilitator, SSF Labs',
-    description: "Bio coming soon! Stay tuned to learn more.",
-    image: './images/gino-llave.png',
-  },
-  {
-    name: 'Matthew Hess',
-    title: 'Former Facilitator, SSF Labs',
-    description: 'Bio coming soon! Stay tuned to learn more.',
-    image: './images/matt-hess.png',
   },
   {
     name: 'John Brown',
@@ -131,7 +95,7 @@ const labs = [
   },
   {
     name: 'Michael Martin',
-    title: 'SSF Labs',
+    title: 'SSF Labs, Former Facilitator',
     description: "Bio coming soon! Stay tuned to learn more.",
     image: './images/mike-martin.png',
   },
@@ -140,6 +104,24 @@ const labs = [
     title: 'SSF Labs',
     description: "Bio coming soon! Stay tuned to learn more.",
     image: './images/rhiannon-duvall.png',
+  },
+  {
+    name: 'Robert Brown',
+    title: 'SSF Labs, Former Facilitator',
+    description: 'Bio coming soon! Stay tuned to learn more.',
+    image: './images/rob-brown.png',
+  },
+  {
+    name: 'Gino Llave',
+    title: 'SSF Labs, Former Facilitator',
+    description: "Bio coming soon! Stay tuned to learn more.",
+    image: './images/gino-llave.png',
+  },
+  {
+    name: 'Matthew Hess',
+    title: 'SSF Labs, Former Facilitator',
+    description: 'Bio coming soon! Stay tuned to learn more.',
+    image: './images/matt-hess.png',
   },
 ];
 
