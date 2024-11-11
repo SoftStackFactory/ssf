@@ -1,16 +1,15 @@
 /* src/pages/index.css */
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
     background-color: #ffffff;
     width: auto;
     max-width: 1020px;
-  }
+  } */
   
 .container {
   text-align: center;
