@@ -2,21 +2,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0 auto;
-    padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #ffffff;
     width: auto;
     max-width: 1020px;
-    padding-top: 140vh;
   }
   
 .container {
   text-align: center;
   padding: 20px;
-  padding-top: 350vh;
 }
 
 h1 {
@@ -93,3 +88,11 @@ p {
 .logo-wrapper {
   width: 185px;
 }
+
+
+/* Adjust padding for mobile devices */
+/* @media (min-width: 375px) {
+  body {
+      padding-top: 550vh;
+  }
+} */
